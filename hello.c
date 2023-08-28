@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// gcc -0 calculator calculator.c -lcs50
+// make hello
 
 int main (void) {
     string name = get_string("what is your name? ");
