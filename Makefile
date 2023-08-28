@@ -2,10 +2,10 @@ CC = gcc
 CFLAGS = -Wall -Werror
 LDFLAGS = -lcs50
 
-all: hello
+all: calculator
 
-hello: hello.c
-	$(CC) $(CFLAGS) -o hello hello.c $(LDFLAGS)
+calculator: calculator.c
+	$(CC) $(CFLAGS) -o calculator calculator.c $(LDFLAGS)
 
 clean:
-	rm -f hello
+	rm -f calculator
