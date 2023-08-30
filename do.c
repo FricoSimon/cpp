@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// clang -o do do.c -lcs50
+
 int main(void)
 {
     int n;

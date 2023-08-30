@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// make hello
+// clang -o hello hello.c -lcs50
 
 int main(void)
 {

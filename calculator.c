@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-// gcc -o calculator calculator.c -lcs50
+// clang -o calculator calculator.c -lcs50
 
 int main(void)
 {

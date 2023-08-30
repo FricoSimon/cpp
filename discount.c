@@ -1,6 +1,8 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// clang -o discount discount.c -lcs50
+
 float discount(float price, int percent);
 
 int main(void)
